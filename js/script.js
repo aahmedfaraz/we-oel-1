@@ -74,8 +74,10 @@ const displayAllProducts = () => {
 
 displayAllProducts();
 
-document.getElementById("logout").addEventListener("click", (e) => {
-  e.preventDefault();
-  window.location.href = "./registration.html";
-  localStorage.setItem("star-auth", false);
-});
+document.querySelectorAll(".logout").forEach((node) =>
+  node.addEventListener("click", (e) => {
+    e.preventDefault();
+    window.location.href = "./registration.html";
+    localStorage.setItem("star-auth", false);
+  })
+);
