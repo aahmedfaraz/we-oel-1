@@ -1,3 +1,6 @@
+if (localStorage.getItem("star-auth") === "false") {
+  window.location.href = "./registration.html";
+}
 // Navbar Functionality
 const navIcon = document.getElementById("icon");
 const navList = document.getElementById("nav-list");
