@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+form {
+    background-color: aliceblue;
+    padding: 30px;
+    border-radius: 30px;
+    border: 20px solid rgba(83, 169, 255, 0.243);
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+h1, h2 {
+    padding: 5px;
+    margin: 0;
+}
+
+.form-control input {
+    width: 100%;
+}
+
+input[type='submit'] {
+    cursor: pointer;
+    margin-top: 20px;
+    border: 0;
+    padding: 10px 40px;
+    background: linear-gradient(to bottom, dodgerblue, rgb(49, 100, 230));
+    color: white;
+    border-radius: 5px;
+}
