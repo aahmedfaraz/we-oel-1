@@ -76,6 +76,6 @@ displayAllProducts();
 
 document.getElementById("logout").addEventListener("click", (e) => {
   e.preventDefault();
-  window.location.href("./registration.html");
+  window.location.href = "./registration.html";
   localStorage.setItem("star-auth", false);
 });
